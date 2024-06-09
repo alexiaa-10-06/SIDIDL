@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int NUM_ESTANTES = 5;
+const int NUM_ESTANTES = 4;
 const int NUM_PRODUCTOS = 6;
 const int STOCK_MINIMO = 10;
 
@@ -19,9 +19,8 @@ Producto estantes[NUM_ESTANTES][NUM_PRODUCTOS] = {
    {"Leche Entera 250ml", 80}, {"Leche Fresa 250ml", 50}, {"Leche Vainilla 250ml", 40}},
   {{"Leche Chocolate 250ml", 30}, {"Leche Chocomenta 250ml", 20}, {"Leche Cookies and Cream 250ml", 15},
    {"Leche Entera 180ml", 90}, {"Leche Fresa 180ml", 60}, {"Leche Vainilla 180ml", 50}},
-  {{"Leche Chocolate 180ml", 40}, {"Leche Chocomenta 180ml", 30}, {"Leche Cookies and Cream 180ml", 20},
-   {"", 0}, {"", 0}, {"", 0}},
-  {{"", 0}, {"", 0}, {"", 0}, {"", 0}, {"", 0}, {"", 0}}
+  {{"Leche Fresa 180ml", 40}, {"Leche Vainilla 180ml", 30}, {"Leche Capuchino 180ml", 20},
+   {"Leche Chocolate 180ml", 40}, {"Leche Chocomenta 180ml", 30}, {"Leche Cookies and Cream 180ml", 20}}
 };
 
 void mostrarEstantes() {
